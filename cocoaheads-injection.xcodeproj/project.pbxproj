@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		989E83151AD5CB65009B7608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 989E83141AD5CB65009B7608 /* main.m */; };
+		989E83181AD5CB65009B7608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 989E83171AD5CB65009B7608 /* AppDelegate.m */; };
+		989E83201AD5CB65009B7608 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 989E831F1AD5CB65009B7608 /* Images.xcassets */; };
+		989E83231AD5CB65009B7608 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989E83211AD5CB65009B7608 /* LaunchScreen.xib */; };
+		989E833B1AD5CBAF009B7608 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 989E83391AD5CBAF009B7608 /* Home.m */; };
+		989E833C1AD5CBAF009B7608 /* Home.xib in Resources */ = {isa = PBXBuildFile; fileRef = 989E833A1AD5CBAF009B7608 /* Home.xib */; };
+		BB73C62E2024F8D0F48EDBB2 /* libPods-cocoaheads-injection.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B26D6664425BA6A10410E5 /* libPods-cocoaheads-injection.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52B26D6664425BA6A10410E5 /* libPods-cocoaheads-injection.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-cocoaheads-injection.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		989E830F1AD5CB65009B7608 /* cocoaheads-injection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cocoaheads-injection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		989E83131AD5CB65009B7608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		989E83141AD5CB65009B7608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		989E83161AD5CB65009B7608 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		989E83171AD5CB65009B7608 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		989E831F1AD5CB65009B7608 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		989E83221AD5CB65009B7608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		989E83381AD5CBAF009B7608 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		989E83391AD5CBAF009B7608 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		989E833A1AD5CBAF009B7608 /* Home.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Home.xib; sourceTree = "<group>"; };
+		C4F4E96B7BCBB5D3C1E44335 /* Pods-cocoaheads-injection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocoaheads-injection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cocoaheads-injection/Pods-cocoaheads-injection.debug.xcconfig"; sourceTree = "<group>"; };
+		FA36101B326BE38D71885D37 /* Pods-cocoaheads-injection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocoaheads-injection.release.xcconfig"; path = "Pods/Target Support Files/Pods-cocoaheads-injection/Pods-cocoaheads-injection.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		989E830C1AD5CB65009B7608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB73C62E2024F8D0F48EDBB2 /* libPods-cocoaheads-injection.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79EF7A51D48D1736BC4A916C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4F4E96B7BCBB5D3C1E44335 /* Pods-cocoaheads-injection.debug.xcconfig */,
+				FA36101B326BE38D71885D37 /* Pods-cocoaheads-injection.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		989E83061AD5CB65009B7608 = {
+			isa = PBXGroup;
+			children = (
+				989E83111AD5CB65009B7608 /* cocoaheads-injection */,
+				989E83101AD5CB65009B7608 /* Products */,
+				79EF7A51D48D1736BC4A916C /* Pods */,
+				E37EB340EFDF39BE634AA7DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		989E83101AD5CB65009B7608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				989E830F1AD5CB65009B7608 /* cocoaheads-injection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		989E83111AD5CB65009B7608 /* cocoaheads-injection */ = {
+			isa = PBXGroup;
+			children = (
+				989E83161AD5CB65009B7608 /* AppDelegate.h */,
+				989E83171AD5CB65009B7608 /* AppDelegate.m */,
+				989E83381AD5CBAF009B7608 /* Home.h */,
+				989E83391AD5CBAF009B7608 /* Home.m */,
+				989E833A1AD5CBAF009B7608 /* Home.xib */,
+				989E831F1AD5CB65009B7608 /* Images.xcassets */,
+				989E83211AD5CB65009B7608 /* LaunchScreen.xib */,
+				989E83121AD5CB65009B7608 /* Supporting Files */,
+			);
+			path = "cocoaheads-injection";
+			sourceTree = "<group>";
+		};
+		989E83121AD5CB65009B7608 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				989E83131AD5CB65009B7608 /* Info.plist */,
+				989E83141AD5CB65009B7608 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E37EB340EFDF39BE634AA7DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52B26D6664425BA6A10410E5 /* libPods-cocoaheads-injection.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		989E830E1AD5CB65009B7608 /* cocoaheads-injection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 989E83321AD5CB65009B7608 /* Build configuration list for PBXNativeTarget "cocoaheads-injection" */;
+			buildPhases = (
+				6A6406D0EAA885FE1195D2EC /* Check Pods Manifest.lock */,
+				989E830B1AD5CB65009B7608 /* Sources */,
+				989E830C1AD5CB65009B7608 /* Frameworks */,
+				989E830D1AD5CB65009B7608 /* Resources */,
+				3EBC2F9C4AF8FA96A0DBA8DE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cocoaheads-injection";
+			productName = "cocoaheads-injection";
+			productReference = 989E830F1AD5CB65009B7608 /* cocoaheads-injection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		989E83071AD5CB65009B7608 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = kamidude;
+				TargetAttributes = {
+					989E830E1AD5CB65009B7608 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 989E830A1AD5CB65009B7608 /* Build configuration list for PBXProject "cocoaheads-injection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 989E83061AD5CB65009B7608;
+			productRefGroup = 989E83101AD5CB65009B7608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				989E830E1AD5CB65009B7608 /* cocoaheads-injection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		989E830D1AD5CB65009B7608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989E83231AD5CB65009B7608 /* LaunchScreen.xib in Resources */,
+				989E833C1AD5CBAF009B7608 /* Home.xib in Resources */,
+				989E83201AD5CB65009B7608 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EBC2F9C4AF8FA96A0DBA8DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cocoaheads-injection/Pods-cocoaheads-injection-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A6406D0EAA885FE1195D2EC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		989E830B1AD5CB65009B7608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989E83181AD5CB65009B7608 /* AppDelegate.m in Sources */,
+				989E83151AD5CB65009B7608 /* main.m in Sources */,
+				989E833B1AD5CBAF009B7608 /* Home.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		989E83211AD5CB65009B7608 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				989E83221AD5CB65009B7608 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		989E83301AD5CB65009B7608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		989E83311AD5CB65009B7608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		989E83331AD5CB65009B7608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4F4E96B7BCBB5D3C1E44335 /* Pods-cocoaheads-injection.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "cocoaheads-injection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		989E83341AD5CB65009B7608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA36101B326BE38D71885D37 /* Pods-cocoaheads-injection.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "cocoaheads-injection/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		989E830A1AD5CB65009B7608 /* Build configuration list for PBXProject "cocoaheads-injection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989E83301AD5CB65009B7608 /* Debug */,
+				989E83311AD5CB65009B7608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		989E83321AD5CB65009B7608 /* Build configuration list for PBXNativeTarget "cocoaheads-injection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				989E83331AD5CB65009B7608 /* Debug */,
+				989E83341AD5CB65009B7608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 989E83071AD5CB65009B7608 /* Project object */;
+}
